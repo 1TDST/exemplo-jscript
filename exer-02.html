@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style-base.css" type="text/css">
-    <link rel="stylesheet" href="css/exer-01.css" type="text/css">
+    <link rel="stylesheet" href="./css/style-base.css" type="text/css">
+    <link rel="stylesheet" href="./css/exer-02.css" type="text/css">
 
     <title>JavaScript</title>
 
@@ -25,9 +25,9 @@
             </nav>
         </header>
 
-        <header class="cabecalho"> Cabeçalhoo
+        <header class="cabecalho"> Bem vindo!
 
-            <img src="header1" alt="">
+            <img id="header1" src="">
         </header>
 
         <section class="principal">
@@ -39,21 +39,25 @@
                 dolor sit amet,
                 consectetur adipiscing elit.</p>
 
+                <img id="corpo" src="">
             <div id="div-demo">
-                EXEMPLO
+                Muda a cor ai bicho!
             </div>
 
-            <button type="button" name="btn-alt-cor"  onclick="document.getElementById('div-demo').style.backgroundColor = '#fff' "> CLIQUE</button>
+            <button type="button" name="btn-alt-cor2" onclick="document.getElementsByclassName('cabecalho')[0].style.backgroundColor = '#2e2d2a'; "> DARK MODE</button>
+            <button type="button" name="btn-alt-cor" onclick="document.getElementById('div-demo').style.backgroundColor = '#fc0303'; "> CLIQUE</button>
         </section>
         <aside class="lateral lateral-1"> Lateral 1  <img id="lateral1" src="" ></aside>
         <aside class="lateral lateral-2"> Lateral 2  <img id="lateral2" src="" > </aside>
 
-        <footer class="rodape"> @copyRight Gabiru0
-            <img src="footer" alt="">
+        <footer class="rodape">
+            <img id="rodape" src="">
+            <p> @copyRight Gabiru0</p>
+            <p> Todos os direitos reservados </p>
         </footer>
     </div>
 
-    <script type="text/javascript" src="JS/script.js" ></script>
+    <script type="text/javascript" src="./JS/script.js" ></script>
 </body>
 
 </html>
