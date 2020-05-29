@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width,initial-scale=1">
    <link rel="stylesheet" href="../css/style-base.css" type="text/css">
-   <script type="text/javascript" src="../js/exer-03.js">
+   <script type="text/javascript" src="../js/exer-04.js">
    </script>
    <title>EXEMPLO-JS</title>
  </head>
@@ -23,8 +23,28 @@
     </header>
 
       <div>
-        <form id="frm1" action="#" method="get" onsubmit="">
-
+        <form id="frm1" action="#" method="get" onsubmit="return validaForme(this)">
+            <fieldset>
+              <div>
+                <label for="">Número - 1</label>
+                <input type="number" name="campo1" placeholder="Digite um número!" required="required">
+              </div>
+              <div>
+                <select name="operacao">
+                  <option value="soma">SOMA</option>
+                  <option value="sub">SUBTRAÇÃO</option>
+                  <option value="multi">MULTIPLICAÇÃO</option>
+                  <option value="divi">DIVISÃO</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Número - 2</label>
+                <input type="text" name="campo2" placeholder="Digite um número!" required="required">
+              </div>
+              <div>
+                <input type="submit" value="Enviar">
+              </div>
+            </fieldset>
         </form>
       </div>
 
