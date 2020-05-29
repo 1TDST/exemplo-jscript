@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
- 
+
 body{
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -13,4 +13,35 @@ body{
 
 h1, h2, h3{
   margin: 20px 10px;
+}
+
+
+.container{
+  margin: auto;
+  background-color: #b9c9c2;
+  height: 800px;
+  font-size: 20px;
+}
+
+.menu li {
+  list-style: none;
+  display: inline;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  background-color: #15185b;
+  padding: 25px 0px;
+}
+
+.menu li a :hover{
+  background-color: #000000;
+  color: #15185b;
+}
+
+.cabecalho{
+  background-color: #ba2441;
+  padding: 25px 0;
 }
