@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style-base.css" type="text/css">
+    <link rel="stylesheet" href="css/exer-01.css" type="text/css">
+    <script type="text/javascript" src="./JS/script-03.js"></script>
+    <title>Formulário teste with JScript</title>
+
+</head>
+
+<body>
+  <div class="container">
+        <header class="cabecelho1">
+            <nav>
+              <ul class="menu">
+                <li> <a href="index.html">Pagina inicial</a></li>
+                <li> <a href="exer-01.html">Exercicio 01</a></li>
+                <li> <a href="exer-02.html">Exercicio 02</a></li>
+                <li>  <a href="exer-03.html">Exercicio 03</a> </li>
+              </ul>
+            </nav>
+        </header>
+
+  <div>
+    <form id="form1" action="#" method="get" onsubmit="return validarForm(this)">
+      <fieldset>
+          <div>
+              <label for=""> FORMULARIO - ONE</label>
+              <input type="number" name="campo1" placeholder="Digite um número!" required="required">
+          </div>
+
+          <div>
+              <select  name="Operacao">
+                  <option value="soma"> SOMA</option>
+                  <option value="sub">SUBTRAÇÃO</option>
+                  <option value="mult">MULTIPLICAÇÃO</option>]
+                  <option value="divi">DIVISÃO</option>
+              </select>
+          </div>
+
+          <div>
+            <label for=""> FORMULARIO - TWO</label>
+            <input type="number" name="campo2"placeholder="Digite outro número!" required="required">
+          </div>
+
+          <div >
+            <input type="submit" value="SUBMIT">
+          </div>
+      </fieldset>
+    </form>
+
+  </div>
+</div>
+</body>
+
+</html>
